@@ -1,0 +1,4 @@
+<view class="automatic"> <textarea type="text" class="inputPaste" placeholder="粘贴地址自动解析"
+                value="{{distinguish}}" bindinput="distinguishinput" bindblur="changtext" bindconfirm="changtext"></textarea>
+            <!-- <button class="Pastebutton" bindtap="changtext">自动识别</button> -->
+        </view>
